@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1d3a">
+  <meta name="description" content="Finguard Limited — financial planning, investment options and business solutions in Uganda.">
+  <title>Finguard Limited | Invest. Save. Grow.</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Finguard Limited home">
+      <span class="brand-mark">F</span><span><strong>FINGUARD</strong><small>LIMITED</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#calculator">Calculator</a><a href="#contact">Contact</a>
+      <a class="nav-login" href="#login">Customer Login</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR FINANCIAL FUTURE STARTS HERE</p>
+        <h1>Invest. Save.<br><span>Grow.</span></h1>
+        <p class="hero-text">Practical financial solutions to help individuals, families and businesses plan for a stronger financial future.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#contact">Talk to our team</a>
+          <a class="button button-outline" href="#services">Explore services</a>
+        </div>
+        <p class="disclaimer">All plans are subject to assessment, applicable terms and conditions, and risk. Returns are not guaranteed.</p>
+      </div>
+      <div class="hero-panel">
+        <div class="hero-emblem">F</div>
+        <p class="panel-kicker">FINGUARD LIMITED</p>
+        <h2>Plan with purpose.</h2>
+        <p>Build your goals with informed choices and clear conversations.</p>
+        <div class="gold-rule"></div>
+        <p class="panel-bottom">Kisamula, Mityana Road · Uganda</p>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-label">ABOUT FINGUARD</div>
+      <h2>Financial guidance for your next step.</h2>
+      <p class="section-intro">Finguard Limited helps customers explore financial options aligned with their goals. We encourage clear planning, informed decisions and open conversations about costs, timeframes and risks.</p>
+      <div class="values">
+        <article><span class="value-icon">01</span><h3>Understand your goals</h3><p>Tell us what you are working towards and the timeframe you have in mind.</p></article>
+        <article><span class="value-icon">02</span><h3>Explore your options</h3><p>Discuss available solutions, relevant conditions, fees and risks before deciding.</p></article>
+        <article><span class="value-icon">03</span><h3>Plan your next step</h3><p>Get in touch with our team to discuss a practical way forward.</p></article>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="section-label">WHAT WE OFFER</div>
+      <h2>Solutions for different goals.</h2>
+      <p class="section-intro">Contact our team to learn about eligibility, terms, costs and the application process for each service.</p>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-icon">↗</span><h3>Investment Planning</h3><p>Explore investment options and plan around your financial goals, timeframe and risk tolerance.</p></article>
+        <article class="service-card"><span class="service-icon">▤</span><h3>Savings Goals</h3><p>Build a savings plan around priorities such as education, family needs or future milestones.</p></article>
+        <article class="service-card"><span class="service-icon">▣</span><h3>Business Loans</h3><p>Enquire about financing options for eligible business needs and working capital.</p></article>
+        <article class="service-card"><span class="service-icon">⌂</span><h3>School Fees Loans</h3><p>Ask our team about education-related financing options and applicable conditions.</p></article>
+        <article class="service-card"><span class="service-icon">⌂</span><h3>Real Estate Goals</h3><p>Discuss financial planning considerations related to property and real estate goals.</p></article>
+        <article class="service-card"><span class="service-icon">◎</span><h3>Personal Consultation</h3><p>Arrange a conversation to review your goals, options, costs and next steps.</p></article>
+      </div>
+    </section>
+
+    <section class="section calculator" id="calculator">
+      <div class="calculator-copy">
+        <div class="section-label">PLAN AHEAD</div>
+        <h2>Investment goal calculator</h2>
+        <p>Estimate how much you may need to set aside each month to reach a target. This simple estimate does not include interest, fees, commissions, taxes or investment risk.</p>
+      </div>
+      <div class="calculator-box">
+        <label for="target">Target amount (UGX)</label>
+        <input id="target" type="number" min="1" step="1000" value="10000000">
+        <label for="saved">Amount already saved (UGX)</label>
+        <input id="saved" type="number" min="0" step="1000" value="0">
+        <label for="months">Time to goal (months)</label>
+        <input id="months" type="number" min="1" step="1" value="24">
+        <div class="estimate"><span>Estimated monthly saving</span><strong id="monthlyResult">UGX 416,667</strong></div>
+        <p class="small-note" id="calcNote" aria-live="polite">A planning estimate only, not a promise of returns.</p>
+      </div>
+    </section>
+
+    <section class="section login-section" id="login">
+      <div>
+        <div class="section-label">CUSTOMER AREA</div>
+        <h2>Customer login</h2>
+        <p>Secure customer accounts are not activated on this starter website. Contact Finguard directly for account-related assistance. We will add login only after a secure backend and customer-data protections are configured.</p>
+      </div>
+      <a class="button button-gold" href="https://wa.me/256760165419?text=Hello%20Finguard%2C%20I%20need%20assistance%20with%20my%20customer%20account." target="_blank" rel="noopener">Ask for assistance</a>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-copy">
+        <div class="section-label">GET IN TOUCH</div>
+        <h2>Let's discuss your goals.</h2>
+        <p>Send an enquiry or contact our team directly. Please do not include passwords, PINs or sensitive financial account details in this form.</p>
+        <div class="contact-detail"><strong>Phone / WhatsApp</strong><a href="https://wa.me/256760165419" target="_blank" rel="noopener">+256 760 165419</a></div>
+        <div class="contact-detail"><strong>Office</strong><span>Kisamula, Mityana Road, opposite Erikan Hotel, Uganda</span></div>
+        <div class="contact-detail"><strong>Website</strong><span>finguardlimited.com</span></div>
+      </div>
+      <form class="enquiry-form" id="enquiryForm">
+        <label for="name">Your name</label><input id="name" name="name" required autocomplete="name" placeholder="Enter your name">
+        <label for="phone">Phone number</label><input id="phone" name="phone" required autocomplete="tel" placeholder="+256...">
+        <label for="interest">What are you enquiring about?</label>
+        <select id="interest" name="interest"><option>Investment planning</option><option>Savings goals</option><option>Business loan</option><option>School fees loan</option><option>Real estate</option><option>Other</option></select>
+        <label for="message">Message</label><textarea id="message" name="message" rows="4" required placeholder="Tell us briefly how we can help"></textarea>
+        <button class="button button-gold" type="submit">Send enquiry via WhatsApp</button>
+        <p class="small-note">This form opens WhatsApp with your message for you to review and send. It does not silently store or submit your information.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">F</span><span><strong>FINGUARD</strong><small>LIMITED</small></span></a>
+    <p>Invest. Save. Grow.</p>
+    <p class="footer-note">Terms and conditions apply. Financial products are subject to applicable eligibility requirements and terms. Investment values and returns are not guaranteed.</p>
+    <p class="copyright">© <span id="year"></span> Finguard Limited. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
