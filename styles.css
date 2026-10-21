@@ -767,3 +767,9 @@ padding-left: 16px;
 padding: 15px;
 }
 }
+/* Finguard footer logo size */
+.footer-brand .brand-logo {
+width: 60px;
+max-width: 60px;
+height: auto;
+}
