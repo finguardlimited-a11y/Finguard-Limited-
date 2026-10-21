@@ -40,3 +40,10 @@ button:hover,
 .cta-button:hover {
   background-color: #18A844;
 }
+.brand-logo {
+  display: block;
+  width: 150px;
+  height: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
