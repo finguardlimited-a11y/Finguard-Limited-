@@ -277,3 +277,61 @@ button:hover,
     width: 94%;
   }
 }
+/* Finguard compact mobile header */
+@media screen and (max-width: 768px) {
+  .site-header {
+    padding: 8px 0 !important;
+  }
+
+  .site-header .brand-logo,
+  .site-header .brand img {
+    width: 100px !important;
+    max-width: 100px !important;
+    height: auto !important;
+  }
+
+  .site-header .brand {
+    gap: 8px;
+  }
+
+  .site-header .brand-mark {
+    display: none !important;
+  }
+
+  .site-header .container {
+    width: 94%;
+  }
+}
+
+/* Finguard calculator mobile layout */
+@media screen and (max-width: 600px) {
+  input[type="number"],
+  input[type="text"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    max-width: 100%;
+    min-height: 44px;
+    padding: 10px 12px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    min-height: 44px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  th,
+  td {
+    padding: 8px 6px;
+    overflow-wrap: anywhere;
+  }
+}
