@@ -77,5 +77,30 @@ button:hover,
 .eyebrow,
 .section-label,
 .panel-kicker {
+  
   color: #20C956;
+}
+/* Finguard readability fixes */
+.hero {
+  background: #063778 !important;
+  color: #FFFFFF !important;
+}
+
+.hero-text,
+.hero .disclaimer,
+.hero .small-note,
+.hero-panel p {
+  color: #FFFFFF !important;
+  opacity: 1 !important;
+}
+
+.hero .button-gold {
+  background: #20C956 !important;
+  color: #063778 !important;
+  opacity: 1 !important;
+}
+
+.hero .button-outline {
+  color: #FFFFFF !important;
+  border-color: #FFFFFF !important;
 }
