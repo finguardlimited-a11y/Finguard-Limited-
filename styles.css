@@ -141,3 +141,33 @@ button:hover,
   background: #20C956 !important;
   color: #063778 !important;
 }
+/* Make investment calculator text readable */
+.calculator-box {
+  background: #FFFFFF !important;
+  color: #19263A !important;
+}
+
+.calculator-box h2,
+.calculator-box h3,
+.calculator-box p,
+.calculator-box label,
+.calculator-box span,
+.calculator-box strong,
+.calculator-box div {
+  color: #19263A !important;
+}
+
+.calculator-box input,
+.calculator-box select {
+  background: #FFFFFF !important;
+  color: #19263A !important;
+  border-color: #CBD5E1 !important;
+}
+
+.calculator-box .estimate {
+  background: #F5F7FA !important;
+}
+
+.calculator-box .small-note {
+  color: #627086 !important;
+}
