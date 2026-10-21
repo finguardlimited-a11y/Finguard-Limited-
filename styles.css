@@ -171,3 +171,30 @@ button:hover,
 .calculator-box .small-note {
   color: #627086 !important;
 }
+/* Final calculator text contrast fix */
+.calculator-box,
+.calculator-box * {
+  color: #19263A !important;
+}
+
+.calculator-box {
+  background: #FFFFFF !important;
+}
+
+.calculator-box input,
+.calculator-box select,
+.calculator-box textarea {
+  color: #19263A !important;
+  background: #FFFFFF !important;
+}
+
+.calculator-box .small-note,
+.calculator-box .estimate span {
+  color: #627086 !important;
+}
+
+.calculator-box .button,
+.calculator-box button {
+  background: #20C956 !important;
+  color: #063778 !important;
+}
