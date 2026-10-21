@@ -104,3 +104,40 @@ button:hover,
   color: #FFFFFF !important;
   border-color: #FFFFFF !important;
 }
+/* Finguard text visibility correction */
+.hero,
+.hero * {
+  visibility: visible !important;
+}
+
+.hero {
+  background: #063778 !important;
+  color: #FFFFFF !important;
+}
+
+.hero h1,
+.hero h1 span,
+.hero h2,
+.hero .hero-text,
+.hero .eyebrow,
+.hero .disclaimer,
+.hero .small-note,
+.hero-panel,
+.hero-panel p,
+.hero-panel h2,
+.hero-panel .panel-kicker,
+.hero-panel .panel-bottom {
+  color: #FFFFFF !important;
+  opacity: 1 !important;
+}
+
+.hero .button {
+  visibility: visible !important;
+  opacity: 1 !important;
+  font-size: 14px !important;
+}
+
+.hero .button-gold {
+  background: #20C956 !important;
+  color: #063778 !important;
+}
