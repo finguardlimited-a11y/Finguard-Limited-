@@ -1,4 +1,4 @@
-/* FINGUARD LIMITED — COMPLETE WEBSITE STYLESHEET */
+²/* FINGUARD LIMITED — COMPLETE WEBSITE STYLESHEET */
 
 :root {
 --navy: #063778;
@@ -772,17 +772,4 @@ padding: 15px;
 width: 60px;
 max-width: 60px;
 height: auto;
-}
-/* Finguard mobile logo and header fix */
-@media screen and (max-width: 768px) {
-  .site-header .brand-logo {
-    width: 85px !important;
-    max-width: 85px !important;
-    height: auto !important;
-    object-fit: contain;
-  }
-
-  .site-header {
-    padding: 8px 0 !important;
-  }
 }
