@@ -52,3 +52,30 @@ button:hover,
   max-width: 100%;
   object-fit: contain;
 }
+/* Finguard brand colour corrections */
+:root {
+  --navy: #063778;
+  --navy2: #0B4B91;
+  --gold: #20C956;
+  --gold-dark: #159443;
+}
+
+.button-gold {
+  background: #20C956;
+  color: #063778;
+}
+
+.button-gold:hover {
+  background: #159443;
+}
+
+.hero-text,
+.hero-panel p {
+  color: #FFFFFF;
+}
+
+.eyebrow,
+.section-label,
+.panel-kicker {
+  color: #20C956;
+}
