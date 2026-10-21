@@ -253,3 +253,27 @@ button:hover,
     max-width: 100%;
   }
 }
+/* Finguard compact mobile header */
+@media screen and (max-width: 768px) {
+  .site-header {
+    padding: 8px 0 !important;
+  }
+
+  .site-header .brand-logo {
+    width: 100px !important;
+    max-width: 100px !important;
+    height: auto !important;
+  }
+
+  .site-header .brand {
+    gap: 8px;
+  }
+
+  .site-header .brand-mark {
+    display: none !important;
+  }
+
+  .site-header .container {
+    width: 94%;
+  }
+}
